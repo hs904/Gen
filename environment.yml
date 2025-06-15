@@ -1,0 +1,21 @@
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - scikit-learn
+  - xgboost
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - jupyter
+  - ipykernel
+  - statsmodels
+  - pyarrow       
+  - joblib           
+  - tqdm           
+  - pip
+  - pip:
+      - econml
+      - causalml
+      - category_encoders  
+      - shap               
