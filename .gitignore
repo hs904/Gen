@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints and metadata
+.ipynb_checkpoints/
+*.ipynb~ 
+
+# VS Code and PyCharm settings
+.vscode/
+.idea/
+
+# Environment and dependency files
+.env
+.venv/
+venv/
+env/
+*.env
+
+# Jupyter and Python runtime files
+*.pid
+*.log
+*.out
+
+# Data files (raw, processed, or intermediate)
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.feather
+*.parquet
+*.pkl
+*.h5
+
+# Model artifacts and results
+*.joblib
+*.model
+*.sav
+
+# Outputs
+*.png
+*.pdf
+*.svg
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment YAML lock files
+poetry.lock
+Pipfile.lock
+conda-meta/

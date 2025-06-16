@@ -8,6 +8,11 @@ df = pd.read_csv("cps_data_cleaned.csv")
 categorical_vars = ['RACE', 'EDUC', 'OCC', 'IND']
 df = pd.get_dummies(df, columns=categorical_vars, drop_first=True)
 
+# 👉 Convert boolean columns (from get_dummies) to int
+for col in df.columns:
+    if df[col].dtype == 'bool':
+        df[col] = df[col].astype(int)
+
 # 2. Standardize numeric control variables
 scaler = StandardScaler()
 numeric_vars = ['AGE', 'UHRSWORK1']
