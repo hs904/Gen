@@ -51,3 +51,7 @@ Thumbs.db
 poetry.lock
 Pipfile.lock
 conda-meta/
+
+# large csv file
+*.csv
+
